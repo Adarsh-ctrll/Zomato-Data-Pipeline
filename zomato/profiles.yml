@@ -1,0 +1,13 @@
+zomato:
+  outputs:
+    dev:
+      account: AEOCGRD-NJ50682
+      database: ZOMATO
+      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
+      role: DBT_ROLE
+      schema: STAGING
+      threads: 8
+      type: snowflake
+      user: A4ADARSH
+      warehouse: ZOMATO_WH
+  target: dev

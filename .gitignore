@@ -1,0 +1,27 @@
+# Secrets
+.env
+*.env
+
+# Data
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Cache
+*.parquet
+
+# OS
+.DS_Store
+Thumbs.db

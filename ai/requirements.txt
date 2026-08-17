@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+snowflake-connector-python
+groq
+sentence-transformers
+torch
+torchvision
+pyarrow
+python-dotenv

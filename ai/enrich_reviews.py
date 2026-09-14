@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-MODEL = "llama-3.3-70b-versatile"
+MODEL = "openai/gpt-oss-120b"
 
 SAMPLE_N = 5
 TOPICS = ["food quality", "delivery", "pricing", "service", "packaging", "other"]

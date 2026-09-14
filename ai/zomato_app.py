@@ -23,7 +23,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-CHAT_MODEL = "llama-3.3-70b-versatile"
+CHAT_MODEL = "openai/gpt-oss-120b"
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 
 NEW_REVIEWS = 500

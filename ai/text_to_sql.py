@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-MODEL = "llama-3.3-70b-versatile"
+MODEL = "openai/gpt-oss-120b"
 
 FORBIDDEN_WORDS = [
     'drop', 'delete', 'truncate', 'alter',

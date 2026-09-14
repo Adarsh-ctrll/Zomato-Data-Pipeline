@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
-CHAT_MODEL = "llama-3.3-70b-versatile"
+CHAT_MODEL = "openai/gpt-oss-120b"
 NEW_REVIEWS = 500
 TOK_K = 5
 CACHE_FILE = "review_embeddings.parquet"
